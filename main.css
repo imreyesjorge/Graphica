@@ -10,6 +10,14 @@
   transition: .2s;
 }
 
+@media (max-width: 1086px) {
+  *,
+  *::before,
+  *::after {
+    text-align: center;
+  }
+}
+
 h1, h2, h3, h4, h5, h6, p {
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   font-family: 'Poppins', sans-serif;
@@ -25,11 +33,28 @@ nav {
           box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+h2 {
+  margin: 2rem 0 0 0;
+}
+
+.highlight {
+  background-color: #fef160;
+  color: #232323;
+  padding: 0 .2rem;
+  text-shadow: none;
+}
+
 .home {
   background: url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80), center/cover;
 }
 
-@media (max-width: 700px) {
+.about {
+  background-image: url(images/bg2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 1086px) {
   .buttons {
     text-align: center;
   }
@@ -39,15 +64,20 @@ nav {
   width: 60%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1086px) {
   #graphica-desc {
     width: 100%;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1086px) {
   #texto-desc {
     text-align: center;
   }
+}
+
+.graphica-photo {
+  -webkit-box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=main.css.map */
