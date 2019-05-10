@@ -40,8 +40,10 @@ h2 {
 }
 
 .home {
-    background: 
-    url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80), center / cover;
+    //background: url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80), center / cover;
+    background-image: url(images/bg2.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .about {
@@ -52,6 +54,9 @@ h2 {
 
 .download {
     //background: url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80), center / cover;
+    background-image: url(images/bg2.png);
+    background-position: center;
+    background-size: cover;
 }
 
 @media (max-width: 1086px) {
