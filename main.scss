@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+
+    transition: .2s;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    text-shadow: 0 0 4px rgba(black, .2);
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+nav {
+    //padding: .5rem 1rem;
+    box-shadow: 0px 2px 4px rgba(black, .1);
+}
+
+.home {
+    background: 
+    url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80), center / cover;
+}
+
+.about {
+    //background: url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80), center / cover;
+}
+
+.download {
+    //background: url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80), center / cover;
+}
+
+@media (max-width: 700px) {
+    .buttons {
+        text-align: center;
+    }
+}
+
+#graphica-desc {
+    width: 60%;
+
+    @media (max-width: 700px) {
+      width: 100%;
+    }
+}
+
+#texto-desc {
+
+    @media (max-width: 700px) {
+        text-align: center;
+    }
+}
+
